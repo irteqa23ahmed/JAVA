@@ -1,0 +1,11 @@
+public class String_class {
+	public static void main (String args[]) {
+	String check = "Hello World! 123";
+	System.out.println("String = \"Hello World! 123\"");
+	System.out.println("String.length() = "+check.length());
+        System.out.println("String.trim() = "+check.trim());
+        System.out.println("String.replace('W','H') = "+check.replace('W','H'));
+        System.out.println("String.contains(\"l\") = "+check.contains("l"));
+        System.out.println("String.equals(\"Hello\") = "+check.equals("Hello"));        	
+}
+}
