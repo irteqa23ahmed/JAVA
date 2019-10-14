@@ -2,11 +2,11 @@ import java.util.*;
 class calfib {
     public static void displayFibonacci(int x) {
         int a=0,b=1,c;
-        System.out.print(a+" "+b+" ");
+        System.out.println(a+" "+b+" ");
         for(int i=1;i<x;i++)
         {
             c=a+b;
-            System.out.print(c+" ");
+            System.out.println(c+" ");
             a=b;
             b=c;
         }
